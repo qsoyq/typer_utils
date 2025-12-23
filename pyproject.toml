@@ -1,6 +1,6 @@
 [project]
 name = "typer-utils"
-version = "0.1.0"
+version = "0.1.1"
 description = "utility functions for typer."
 readme = "README.md"
 requires-python = ">=3.10"
