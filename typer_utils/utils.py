@@ -1,10 +1,11 @@
 import importlib.metadata
 import subprocess
-from pathlib import Path
 from functools import cache
+from pathlib import Path
 from typing import cast
-import typer
+
 import toml
+import typer
 
 
 @cache

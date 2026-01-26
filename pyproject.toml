@@ -1,6 +1,6 @@
 [project]
 name = "typer-utils"
-version = "0.1.1"
+version = "0.1.2"
 description = "utility functions for typer."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -100,9 +100,16 @@ exclude = ['^venv/', '^__init__\.py$']
 explicit_package_bases = true
 
 [[tool.mypy.overrides]]
-module = []
+module = [
+    "typer_utils",
+]
 ignore_missing_imports = true
 follow_untyped_imports = true
 
 [tool.pytest.ini_options]
 markers = []
+
+
+[tool.isort]
+profile = "hug"
+src_paths = ["typer_utils"]

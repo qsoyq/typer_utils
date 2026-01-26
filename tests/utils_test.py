@@ -1,11 +1,13 @@
 import importlib.metadata
-import typer
+
 import pytest
+import typer
+
 from typer_utils.utils import (
     error,
-    get_pyproject_data,
     get_project_name,
     get_project_version,
+    get_pyproject_data,
     is_cmd_exists,
     version_callback,
 )
