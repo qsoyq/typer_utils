@@ -1,15 +1,15 @@
 [project]
 name = "typer-utils"
-version = "0.1.2"
+version = "0.1.3"
 description = "utility functions for typer."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "pre-commit>=4.5.1",
-    "pytest>=9.0.2",
-    "toml>=0.10.2",
-    "typer>=0.20.1",
-    "types-toml>=0.10.8.20240310",
+    "pre-commit",
+    "pytest",
+    "toml",
+    "typer",
+    "types-toml",
 ]
 
 [project.scripts]
